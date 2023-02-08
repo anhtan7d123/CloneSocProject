@@ -20,8 +20,6 @@ public class Soc {
     @Column(name = "soc_name")
     private String socName;
 
-    private String token;
-
     private int restrictInterval;
 
     @ManyToMany

@@ -10,4 +10,6 @@ public class HistoryService {
     public HistoryService(HistoryRepository historyRepository) {
         this.historyRepository = historyRepository;
     }
+
+
 }
